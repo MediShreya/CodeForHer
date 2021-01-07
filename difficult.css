@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.game{
+    width: 1500px;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+    background-image:url("https://cdn.lowgif.com/full/11a3ee5e1d4a2e4f-.gif");
+background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:relative;
+}
+#character{
+    width: 150px;
+    height: 150px;
+    background-image:url("https://i.pinimg.com/originals/fa/d2/25/fad225214130494f40d2c8f22166aab4.gif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:relative;
+    position:relative;
+    top: 200px;
+    left:350px;
+}
+.animate{
+    animation: jump 0.5s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    2%{top: 100px;}
+    90%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+   /* background-color: blue;*/
+    width: 15px;
+    height: 15px;
+    background-image:url("https://i.gifer.com/origin/a8/a88572578d16f7b00971c949aecc5812_w200.gif");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:relative;
+    position: relative;
+    top: 135px;
+    left: 500px;
+    animation: block 1s infinite linear;
+}
+@keyframes block{
+    0%{left: 1500px}
+    100%{left: -20px}
+}
+p{
+    text-align: center;
+}
