@@ -1,0 +1,66 @@
+body{
+    width: 1500px;
+    height: 800px;
+    border: 1px solid black;
+    margin: auto;
+    background-image:url("https://cdn.lowgif.com/full/11a3ee5e1d4a2e4f-.gif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:relative;
+}
+body h1{
+text-align:center;
+text-shadow: 2px 2px 5px pink;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 
+{
+float:center;
+background-color:#006400;
+} 
+.button1:active{
+
+background-color: #90EE90;}
+
+.character{
+    width: 150px;
+    height: 150px;
+    background-image:url("https://i.pinimg.com/originals/fa/d2/25/fad225214130494f40d2c8f22166aab4.gif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:relative;
+    position:relative;
+    top: 200px;
+    left:350px;
+}
+.block{
+    width: 15px;
+    height: 15px;
+    background-image:url("https://i.gifer.com/origin/a8/a88572578d16f7b00971c949aecc5812_w200.gif");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:relative;
+    position: relative;
+    top: 135px;
+    left: 500px;
+    animation: block 3s infinite linear;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
