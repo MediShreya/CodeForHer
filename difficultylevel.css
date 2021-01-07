@@ -1,0 +1,91 @@
+body{
+ background-image:url("https://cdn.lowgif.com/full/11a3ee5e1d4a2e4f-.gif");
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+color:red;
+font-style:italic;
+letter-spacing:2px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+.button1 
+{
+background-color:#006400;
+} 
+.button1:active{
+
+background-color: #90EE90;}
+
+.button2 
+{
+background-color:#006400;
+} 
+.button2:active{
+
+background-color: #90EE90;}
+.button3 
+{
+background-color:#006400;
+} 
+.button3:active{
+
+background-color: #90EE90;}
+.vertical-center1 {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left:46%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.vertical-center2 {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left:45%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.vertical-center3 {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left:44.5%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.character{
+    width: 150px;
+    height: 150px;
+    background-image:url("https://i.pinimg.com/originals/fa/d2/25/fad225214130494f40d2c8f22166aab4.gif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:relative;
+    position:relative;
+    top: 200px;
+    left:350px;
+}
+.block{
+    width: 15px;
+    height: 15px;
+    background-image:url("https://i.gifer.com/origin/a8/a88572578d16f7b00971c949aecc5812_w200.gif");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:relative;
+    position: relative;
+    top: 135px;
+    left: 500px;
+    animation: block 3s infinite linear;
+}
